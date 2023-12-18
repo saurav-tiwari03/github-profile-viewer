@@ -5,6 +5,8 @@
 ## Overview
 
 GitHub Profile Viewer is a React application with Tailwind CSS that allows users to input their GitHub username and view relevant information about their profile, repositories, followers, and following.
+<img width="960" alt="image" src="https://github.com/saurav-tiwari03/github-profile-viewer/assets/116860218/d81144a5-a86f-41b0-aab4-0c32beb80c16">
+
 
 ## Features
 
