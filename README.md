@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GitHub Profile Viewer
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+GitHub Profile Viewer is a React application with Tailwind CSS that allows users to input their GitHub username and view relevant information about their profile, repositories, followers, and following.
+<img width="960" alt="image" src="https://github.com/saurav-tiwari03/github-profile-viewer/assets/116860218/d81144a5-a86f-41b0-aab4-0c32beb80c16">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Profile Information**: Visit `/` to input your GitHub username and view details such as name, bio, institution, followers, and following.
 
-### `npm test`
+- **Repositories**: Navigate to `/repositories` to see a list of all public repositories associated with the provided GitHub username.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Followers and Following**: Explore `/followers` and `/following` to see the list of people following the user and the list of people the user follows on GitHub.
+- **Theme Switch**: Enjoy the flexibility to switch between light and dark themes for a personalized viewing experience.
 
-### `npm run build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have the following installed before running the application:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- npm (Node Package Manager)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/your-username/github-profile-viewer.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Change into the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd github-profile-viewer
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Start the application:
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Open your browser and go to [http://localhost:3000](http://localhost:3000).
 
-### Analyzing the Bundle Size
+3. Input your GitHub username and explore the different routes to view your profile information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Dependencies
 
-### Making a Progressive Web App
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
